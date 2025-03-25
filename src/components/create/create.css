@@ -1,0 +1,50 @@
+/* src/components/Create/Create.css */
+.create-container {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 20px;
+  }
+  
+  .create-container h1 {
+    color: #002f34;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .create-container h2 {
+    color: #002f34;
+    margin-bottom: 20px;
+  }
+  
+  .categories-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .category-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .category-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-color: #002f34;
+  }
+  
+  .category-icon {
+    font-size: 36px;
+    margin-bottom: 15px;
+  }
+  
+  .category-name {
+    text-align: center;
+    font-weight: 500;
+  }
